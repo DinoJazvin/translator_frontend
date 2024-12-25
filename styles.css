@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", serif;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.834)),
+    url(images/black-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 50px; 
+    backdrop-filter: blur(9px); 
+    height: 100vh;
+}
+
+
+.top-section{    
+    padding: 20px;
+    /* margin-top: 15px; */
+    /* width: fit-content; */
+}
+
+.top-section h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    /* margin-top: 40px; */
+    margin-bottom: 20px;
+
+}
+
+.top-section p {
+    font-size: 1.4rem;
+    margin-top: -20px;
+    font-weight: 400;
+    color: rgb(1, 1, 1);
+}
+
+
+.top-text-back {
+    background-color: black;
+    padding: 20px 40px;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(12px); 
+    border-radius: 15px; 
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(12px); 
+    border-radius: 15px; 
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-weight: 500;
+}
+
+textarea {
+    margin-bottom: 25px;
+    border: none;
+    min-width: 350px;
+}
+
+.translate-btn {
+    padding: 10px 20px;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 22px;
+    background-color: black;
+    color: rgba(208, 205, 205, 0.908);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05); 
+    background-color: #000000d4; 
+    cursor: pointer; 
+    color: white;
+}
+
+::selection {
+    background-color: #252525; 
+    color: rgb(255, 255, 255);
+}
+
+.bottom-section {
+    background: rgba(84, 84, 84, 0.3); 
+    backdrop-filter: blur(12px); 
+    border-radius: 15px; 
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 300;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.bottom-section h2 {
+    font-weight: 400;
+
+}

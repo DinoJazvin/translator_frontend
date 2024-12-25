@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Your HTML here -->
+         <div class="top-section">
+            <div class="top-text-back">
+                <h1>PollyGlot</h1>
+                <p>Perfect translation every time!</p>
+            </div>
+        </div>
+        <main class="main">
+            <div>
+                <h2>Text to translate</h2>
+                <textarea rows="4" id="textInput" placeholder="How are you?" style="font-size: 1rem; border-radius: 10px; background-color: black; color:white; padding: 10px; font-family: Plus Jakarta Sans, serif;" ></textarea>
+                <h2>Select language</h2>
+                <form>
+                    <label>
+                        <input type="radio" name="choice" value="French"/> French
+                    </label>
+                    <label>
+                        <input type="radio" name="choice" value="Spanish"/> Spanish
+                    </label>
+                    <label>
+                        <input type="radio" name="choice" value="Japanese"/> Japanese
+                    </label>
+                </form>
+                <button onclick="processInput()" class="translate-btn">Translate</button>
+            </div>
+        </main>
+        <div class="bottom-section">
+            <div class="top-text-back">
+                <h2>Output:</h2>
+                <p id="output"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
